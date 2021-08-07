@@ -27,10 +27,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-kangos
+    $(LOCAL_PATH)/overlay-derp
 
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
+	
+# Boot animation
+TARGET_BOOT_ANIMATION_RES := 1080x2280
+	
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal

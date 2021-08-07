@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/kangos_enchilada.mk
+    $(LOCAL_DIR)/derp_enchilada.mk
 
 COMMON_LUNCH_CHOICES := \
-    kangos_enchilada-user \
-    kangos_enchilada-userdebug \
-    kangos_enchilada-eng
+    derp_enchilada-user \
+    derp_enchilada-userdebug \
+    derp_enchilada-eng
